@@ -1,4 +1,6 @@
-package produto;
+package produtos;
+
+import produto.Produto;
 
 import java.util.GregorianCalendar;
 
@@ -19,5 +21,4 @@ public class ProdutoPerecivel extends Produto {
 	public void setDataValidade(GregorianCalendar dataValidade) {
 		this.dataValidade = dataValidade;
 	}
-
 }

@@ -37,7 +37,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produto.RepositorioProdutos#existe(int)
+	 * @see solucao.produtos.RepositorioProdutos#existe(int)
 	 */
 	@Override
 	public boolean existe(int codigo) {
@@ -53,7 +53,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produto.RepositorioProdutos#inserir(produto.Produto)
+	 * @see solucao.produtos.RepositorioProdutos#inserir(Produto)
 	 */
 	@Override
 	public void inserir(Produto produto) {
@@ -63,7 +63,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produto.RepositorioProdutos#atualizar(produto.Produto)
+	 * @see solucao.produtos.RepositorioProdutos#atualizar(Produto)
 	 */
 	@Override
 	public void atualizar(Produto produto) {
@@ -79,7 +79,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produto.RepositorioProdutos#remover(int)
+	 * @see solucao.produtos.RepositorioProdutos#remover(int)
 	 */
 	@Override
 	public void remover(int codigo) {
@@ -96,7 +96,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produto.RepositorioProdutos#procurar(int)
+	 * @see solucao.produtos.RepositorioProdutos#procurar(int)
 	 */
 	@Override
 	public Produto procurar(int codigo) {

@@ -1,4 +1,4 @@
-package produto;
+package produtos;
 
 public class Produto {
 
@@ -54,8 +54,8 @@ public class Produto {
 	@Override
 	public boolean equals(Object obj) {
 		boolean result = false;
-		if (obj instanceof Produto) {
-			result = this.codigo == ((Produto) obj).getCodigo();
+		if (obj instanceof produto.Produto) {
+			result = this.codigo == ((produto.Produto) obj).getCodigo();
 		}
 		return result;
 	}

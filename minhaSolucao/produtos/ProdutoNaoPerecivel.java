@@ -1,4 +1,6 @@
-package produto;
+package produtos;
+
+import produto.Produto;
 
 public class ProdutoNaoPerecivel extends Produto {
 
