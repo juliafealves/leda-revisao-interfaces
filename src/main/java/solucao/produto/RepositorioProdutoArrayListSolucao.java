@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import produto.Produto;
 
 /**
- * Classe que representa um repositório de produtos usando ArrayList como
+ * Classe que representa um repositório de produto usando ArrayList como
  * estrutura sobrejacente. Alguns métodos (atualizar, remover e procurar) ou
  * executam com sucesso ou retornam um erro. Para o caso desde exercício, o erro
  * será representado por uma RuntimeException que não precisa ser declarada na
@@ -16,7 +16,7 @@ import produto.Produto;
 public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSolucao {
 
 	/**
-	 * A estrutura onde os produtos sao mantidos. Voce nao precisa se preocupar
+	 * A estrutura onde os produto sao mantidos. Voce nao precisa se preocupar
 	 * por enquanto com o uso de generics em ArrayList.
 	 */
 	private ArrayList produtos;
@@ -27,7 +27,7 @@ public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSo
 	}
 
 	/**
-	 * Recebe o codigo do produtos e devolve o indice desse produtos no array ou
+	 * Recebe o codigo do produto e devolve o indice desse produto no array ou
 	 * -1 caso ele nao se encontre no array. Esse método é util apenas na
 	 * implementacao com arrays por questoes de localizacao. Outras classes que
 	 * utilizam outras estruturas internas podem nao precisar desse método.
@@ -41,7 +41,7 @@ public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSo
 	}
 
 	/**
-	 * Recebe o codigo e diz se tem produtos com esse codigo armazenado
+	 * Recebe o codigo e diz se tem produto com esse codigo armazenado
 	 * 
 	 * @param codigo
 	 * @return
@@ -56,15 +56,15 @@ public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSo
 	}
 
 	/**
-	 * Insere um novo produtos (sem se preocupar com duplicatas)
+	 * Insere um novo produto (sem se preocupar com duplicatas)
 	 */
 	public void inserir(Produto produto) {
 		produtos.add(produto);
 	}
 
 	/**
-	 * Atualiza um produtos armazenado ou retorna um erro caso o produtos nao
-	 * esteja no array. Note que, para localizacao, o código do produtos será
+	 * Atualiza um produto armazenado ou retorna um erro caso o produto nao
+	 * esteja no array. Note que, para localizacao, o código do produto será
 	 * utilizado.
 	 */
 	public void atualizar(Produto produto) {
@@ -77,7 +77,7 @@ public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSo
 	}
 
 	/**
-	 * Remove produtos com determinado codigo, se existir, ou entao retorna um
+	 * Remove produto com determinado codigo, se existir, ou entao retorna um
 	 * erro, caso contrário. Note que a remoção NÃO pode deixar "buracos" no
 	 * array.
 	 * 
@@ -92,8 +92,8 @@ public class RepositorioProdutoArrayListSolucao implements RepositorioProdutosSo
 	}
 
 	/**
-	 * Retorna um produtos com determinado codigo ou entao um erro, caso o
-	 * produtos nao esteja armazenado
+	 * Retorna um produto com determinado codigo ou entao um erro, caso o
+	 * produto nao esteja armazenado
 	 * 
 	 * @param codigo
 	 * @return

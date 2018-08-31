@@ -3,7 +3,7 @@ package solucao.produto;
 import produto.Produto;
 
 /**
- * Classe que generaliza os repositorios de produtos em array.
+ * Classe que generaliza os repositorios de produto em array.
  * 
  * @author Adalberto
  *
@@ -37,7 +37,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produtos.RepositorioProdutos#existe(int)
+	 * @see solucao.produto.RepositorioProdutos#existe(int)
 	 */
 	@Override
 	public boolean existe(int codigo) {
@@ -53,7 +53,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produtos.RepositorioProdutos#inserir(Produto)
+	 * @see solucao.produto.RepositorioProdutos#inserir(Produto)
 	 */
 	@Override
 	public void inserir(Produto produto) {
@@ -63,7 +63,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produtos.RepositorioProdutos#atualizar(Produto)
+	 * @see solucao.produto.RepositorioProdutos#atualizar(Produto)
 	 */
 	@Override
 	public void atualizar(Produto produto) {
@@ -79,7 +79,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produtos.RepositorioProdutos#remover(int)
+	 * @see solucao.produto.RepositorioProdutos#remover(int)
 	 */
 	@Override
 	public void remover(int codigo) {
@@ -96,7 +96,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see solucao.produtos.RepositorioProdutos#procurar(int)
+	 * @see solucao.produto.RepositorioProdutos#procurar(int)
 	 */
 	@Override
 	public Produto procurar(int codigo) {
