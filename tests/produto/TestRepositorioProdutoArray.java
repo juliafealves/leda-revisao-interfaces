@@ -77,10 +77,10 @@ public class TestRepositorioProdutoArray {
 
     @Test
     public void testRemoveDuplicados(){
-        this.repositorioPerecivel.inserir(new ProdutoPerecivel(2, "Feijão", 5.00, null, null));
-        this.repositorioPerecivel.inserir(new ProdutoPerecivel(2, "Feijão", 5.00, null, null));
-        this.repositorioPerecivel.remover(2);
-        Assert.assertFalse(this.repositorioPerecivel.existe(2));
+        this.repositorioPerecivel.inserir(new ProdutoPerecivel(1, "Feijão", 5.00, null, null));
+        this.repositorioPerecivel.inserir(new ProdutoPerecivel(1, "Feijão", 5.00, null, null));
+        this.repositorioPerecivel.remover(1);
+        Assert.assertFalse(this.repositorioPerecivel.existe(1));
     }
 
     @Test (expected = RuntimeException.class)

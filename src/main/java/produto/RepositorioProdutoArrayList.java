@@ -100,8 +100,10 @@ public class RepositorioProdutoArrayList {
 	 * @param codigo
 	 */
 	public void remover(int codigo) {
-        Produto produto = this.procurar(codigo);
-        this.produtos.remove(produto);
+	    while (this.existe(codigo)) {
+            Produto produto = this.procurar(codigo);
+            this.produtos.remove(produto);
+        }
 	}
 
 	/**
